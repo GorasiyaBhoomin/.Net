@@ -7,13 +7,13 @@ namespace NameToUpper
         static void Main(string[] args)
         {
             Console.Write("Enter your name: ");
-            string name = Console.ReadLine(); // Input: John F Kennedy
+            string name = Console.ReadLine(); 
 
-            string upperName = name.ToUpper(); // Convert to uppercase
+            string upperName = name.ToUpper();
 
-            Console.WriteLine("Output: " + upperName); // Output: JOHN F KENNEDY
+            Console.WriteLine("Output: " + upperName); 
 
-            Console.ReadLine(); // Pause the program
+            Console.ReadLine();
         }
     }
 }
