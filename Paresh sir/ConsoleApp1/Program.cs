@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -112,10 +112,10 @@ namespace ConsoleApp1
             //    }
 
 
-            //int a = 5;
-            //int b = 5;
-            //int res = a++ + b++ + b++ + a++ + ++a + ++b + a++;
-            //Console.WriteLine(res);
+            int a = 5;
+            int b = 5;
+            int res = a++ + b++ + b++ + a++ + ++a + ++b + a++;
+            Console.WriteLine(res);
 
 
 
