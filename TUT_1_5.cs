@@ -2,7 +2,7 @@
 
 namespace ConsoleApplication1 // Declaring a namespace
 {
-    class Program // Declaring a class named Program
+    class TUT_1_5// Declaring a class named Program
     {
         static void Main(string[] args) // Main method: entry point of the program
         {

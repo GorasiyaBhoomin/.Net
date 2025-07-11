@@ -2,7 +2,7 @@
 
 namespace MaskMobileNumber
 {
-    class Program
+    class TUT_1_10
     {
         static void Main(string[] args)
         {

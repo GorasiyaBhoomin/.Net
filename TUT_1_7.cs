@@ -1,7 +1,7 @@
 ﻿using System;
 namespace While_Loop
 {
-    class Program
+    class TUT_1_7
     {
         static void Main(string[] args)
         {

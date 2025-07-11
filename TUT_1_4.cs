@@ -2,7 +2,7 @@
 
 namespace ConsoleApplication1
 {
-    class Program
+    class TUT_1_4
     {
         static void Main(string[] args)
         {
