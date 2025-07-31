@@ -3,8 +3,21 @@
 
 namespace Dotnet
 {
+    /// <summary>
+    /// hello i am comment 1
+    /// </summary>
     class swapsmethod
     {
+        /// <summary>
+        /// usned to share % value
+        /// </summary>
+        //int a;
+        /// <summary>
+        /// This method is used to swap values of two variables
+        /// </summary>
+        /// <param name="a">First ref parameter or varialble</param>
+        /// <param name="b">Second ref parameter or varialble</param>
+        /// <returns></returns>
         static void swap(ref int a,ref int b)
         {
             int c=a;

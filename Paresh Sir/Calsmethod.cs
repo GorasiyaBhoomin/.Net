@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace Calsmethod
 {
+    /// <summary>
+    /// this class includes important methods
+    /// </summary>
      class Calsmethod
     {
+        /// <summary>
+        /// usned to share % value
+        /// </summary>
+        int a;
+        /// <summary>
+        /// This method is used to swap values of two variables
+        /// </summary>
+        /// <param name="a">First ref parameter or varialble</param>
+        /// <param name="b">Second ref parameter or varialble</param>
+        /// <returns></returns>
+
         static int Add(int a, int b)
-        {
+        { 
             return a + b;
         }
         static int Sub(int a, int b)
@@ -23,7 +37,7 @@ namespace Calsmethod
         static int Div(int a, int b)
         {
             return a / b;
-        }
+        }  
         static void Main(string[] args)
         {
             int a=20,b=20;

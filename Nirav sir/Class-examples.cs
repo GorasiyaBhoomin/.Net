@@ -3,11 +3,36 @@ using System.Net;
 
 namespace Praticals
 {
+
+
+    public class employee
+    {
+
+        int empId;
+        string eName;
+        double salary;
+        void getData()
+        {
+            empId = 111;
+            eName = "BBB";
+            salary = 220.0;
+        }
+        public showData()
+        {
+            Console.WriteLine("emp Id:" + empId);
+            Console.WriteLine("eName:" + eName);
+            Console.WriteLine("salary:" + salary);
+
+        }
+    }
     internal class demoArray1
     {
 
         public static void Main(string[] args)
         {
+            employee e1=new employee();
+            e1.getData();
+            e1.showData();
 
             //P1
             //int[] ary = new int[5]; //declaration of array
@@ -207,7 +232,6 @@ namespace Praticals
             //    }
 
             //}
-
 
 
            
