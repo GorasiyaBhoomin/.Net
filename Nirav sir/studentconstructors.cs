@@ -17,16 +17,23 @@ namespace Constructor
     //        roll = 51;
     //        name = "hlool";
     //    }
-    //    public void showData()
-    //    {
-    //        Console.WriteLine("Roll: " + roll);
-    //        Console.WriteLine("Name: " + name);
-    //    }
+        public void showData()
+    {
+        Console.WriteLine("Roll: " + roll);
+        Console.WriteLine("Name: " + name);
+    }
     //}
 
     //default constructor
     {
+        public studentconstructors(int x,int y)
+        {
 
+        }
+        public studentconstructors(studentconstructors s)
+        {
+            
+        }
     }
     internal class demo
     {
@@ -34,6 +41,16 @@ namespace Constructor
         {
             //studentconstructors s1 = new studentconstructors();
             //s1.showData();
+            studentconstructors[] s = new studentconstructors[2];
+            for (int i = 0; i < s.length; i++)
+            {
+                args[i] = new studentconstructors;
+            }
+            Console.WriteLine("Student Details are:");
+            for (int i=0;i<s.length,int++)
+            {
+                s[i].showdata();
+            }
         }
     }
 }
