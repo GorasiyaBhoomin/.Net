@@ -15,10 +15,12 @@ namespace Constructor
 
         public Book_constructor()//default constructor
         {
-            bookid = 1;
-            title = "Software engineering";
-            author = "Ajay das";
-            prize = 100;
+            //bookid = 1;
+            //title = "Software engineering";
+            //author = "Ajay das";
+            //prize = 100;
+            int id = bookid;
+            string 
         }
         public void showData()
         {
@@ -42,6 +44,9 @@ internal class demo
         //    s[i] = new Book_constructor();
         //    s[i].showData();
         //}
+        int id = convert.ToInt32(args[2]);
+        string name =args[3];
+        int salary
 
                     
     }
