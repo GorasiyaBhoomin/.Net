@@ -36,7 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtCity = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Insert = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -107,15 +107,15 @@
             this.txtCity.Size = new System.Drawing.Size(245, 22);
             this.txtCity.TabIndex = 7;
             // 
-            // button1
+            // Insert
             // 
-            this.button1.Location = new System.Drawing.Point(126, 334);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 24);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "btnInsert";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Insert.Location = new System.Drawing.Point(126, 334);
+            this.Insert.Name = "Insert";
+            this.Insert.Size = new System.Drawing.Size(125, 24);
+            this.Insert.TabIndex = 8;
+            this.Insert.Text = "btnInsert";
+            this.Insert.UseVisualStyleBackColor = true;
+            this.Insert.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -155,7 +155,7 @@
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Insert);
             this.Controls.Add(this.txtCity);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -181,7 +181,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtCity;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Insert;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

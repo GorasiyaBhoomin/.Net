@@ -51,7 +51,7 @@ namespace crud_operation
             con.Open();
 
 
-            string query = "UPDATE  crud1 Set Name=@Name;
+            string query = "UPDATE student SET EnrlNo=@Enroll,Name=@Name,Age=@Age,City=@City)";
             SqlCommand cmd = new SqlCommand(query, con);
 
             cmd.Parameters.AddWithValue("@EnrolNo", txtEnrolNo.Text);
@@ -65,17 +65,15 @@ namespace crud_operation
         private void button4_Click(object sender, EventArgs e)
         {
             string conStr = "";
-            SqlConnection con = new SqlConnection(conStr);
-            con.Open();
+            SqlConnection conConn = new SqlConnection(con);
+            conConn.Open();
+            string query = "DELETE from student where EnrolNo=@Enroll";
+            SqlCommand cmd = new SqlCommand(query, conConn);
+            cmd.Parameters.AddWithValue("@Enroll", enrlno.Text);
 
-            string query = "";
-            SqlCommand cmd = new SqlCommand(query, con);
-            cmd.Parameters.AddWithValue("",);
-            cmd.Parameters.AddWithValue("",);
-            cmd.Parameters.AddWithValue("",);
-            cmd.Parameters.AddWithValue("",);
             cmd.ExecuteNonQuery();
-            con.Close();
+            conConn.Close();
+
         }
 
         private void button3_Click(object sender, EventArgs e)

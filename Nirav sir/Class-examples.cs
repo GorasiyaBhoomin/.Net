@@ -10,6 +10,7 @@ namespace Praticals
 
         int empId;
         string eName;
+
         double salary;
         void getData()
         {
