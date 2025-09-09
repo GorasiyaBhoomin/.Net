@@ -48,7 +48,7 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Car car = new Car("SUV", 200, "Petrol", 15, 6, "Toyota");
+            Car car = new Car("Creta", 200, "Petrol", 15, 6, "Hyndai");
             car.Show();
         }
     }
